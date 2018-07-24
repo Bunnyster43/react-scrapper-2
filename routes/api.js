@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Article = require('../models/articles.js');
+//const Article = require('../models/articles.js');
 
 router.post('/api/articles', function (req, res) {
     Article.create(req.body)
