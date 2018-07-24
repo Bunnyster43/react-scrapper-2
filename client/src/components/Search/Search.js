@@ -62,7 +62,7 @@ class Search extends React.Component {
                     <div className='form-group-row' >
                         <h4><label className="col-2"> Movie </label></h4>
                         <div className="col-10" >
-                            <input className="form-control" type="text" value={this.state.Movie} Change={this.searchInputChange} />
+                            <input className="form-control" type="text" value={this.state.Movie} change={this.searchInputchange} />
                         </div>
                     </div>
                 </center>
@@ -73,7 +73,7 @@ class Search extends React.Component {
                         <h4><label className="col-2"> Date </label></h4>
                         <br />
                         <div className="col-10" >
-                            <input className="form-control" type="date" value={this.state.Date} Change={this.searchInputChange} id="date-input" />
+                            <input className="form-control" type="date" value={this.state.Date} change={this.searchInputchange} id="date-input" />
                         </div>
                     </div>
                 </center>
